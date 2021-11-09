@@ -1,0 +1,104 @@
+* {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+/* Menu styles */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.sub-logo {
+  color:#999;
+  letter-spacing: 0.1rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+	text-align: center;
+}
+
+.btn{
+  color:#999;
+  font-weight: bold;
+  font-size: 1.125rem;
+  padding:10px 20px;
+  text-decoration:none;
+  letter-spacing:2px;
+}
+
+.btn:hover, .active{
+  border:none;
+  color:#1b1b1b;
+}
+
+.sub-menu {
+  margin-top: 0.4rem;
+  padding-bottom: 2rem;
+  line-height: 1.2rem;
+}
+
+.sub-menu a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.sub-menu:hover a {
+  color: #999;
+  font-weight: bold;
+}
+
+.sub-menu a:hover {
+  color: #1b1b1b;
+}
+
+
+@media screen and (min-width: 1025px) {
+  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  nav {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .sub-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .sub-menu {
+    display: none;
+  }
+
+  .btn{
+    padding: 10px 10px;
+  }
+}

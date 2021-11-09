@@ -1,0 +1,39 @@
+h2 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  max-width: 1280px;
+  margin: auto;
+  margin-bottom: 4rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+.contact a {
+  color:#999;
+  font-weight: bold;
+}
+.contact a:hover {
+  color:#1b1b1b;
+  text-decoration:none;
+}
+
+.contact div {
+  font-size: 1.4rem;
+}
+
+.contact div a {
+  display: block;
+  max-width: 15rem;
+  margin: auto;
+}
+
+.contact div a:nth-of-type(2) {
+  margin-top: 0.65rem;
+}
