@@ -9,7 +9,11 @@
 	-moz-transition-property: all;
   -moz-transition-timing-function: cubic-bezier(100,50,21,6);
 
-  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
 
 /* Menu styles */
@@ -17,6 +21,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  max-width: 1800px;
+  margin: auto;
   margin-top: 2rem;
 }
 
@@ -27,7 +33,6 @@
 }
 
 .sub-logo {
-  color:#999;
   letter-spacing: 0.1rem;
 }
 
@@ -40,10 +45,11 @@ nav {
 }
 
 .btn{
-  color:#999;
+  margin-left: 0.4rem;
+  color:#1b1b1b;
   font-weight: bold;
   font-size: 1.125rem;
-  padding:10px 20px;
+  padding: 7px 20px 10px 20px;
   text-decoration:none;
   letter-spacing:2px;
 }
@@ -51,11 +57,18 @@ nav {
 .btn:hover, .active{
   border:none;
   color:#1b1b1b;
+  background-color: #d3d3d3;
+}
+
+.lang {
+  margin-left: 0.1rem;
+  font-size: 1rem;
+  padding: 3px 7px 5px 10px;
 }
 
 .sub-menu {
   margin-top: 0.4rem;
-  padding-bottom: 2rem;
+  padding: 0.5rem 0 2rem 0;
   line-height: 1.2rem;
 }
 

@@ -36,6 +36,7 @@ h3 {
 
 .image img {
   width: 100%;
+  height: auto;
   position: relative;
   z-index: -2;
 }
@@ -44,7 +45,7 @@ h3 {
   padding: 0 0.75rem;
 }
 .desc a {
-  color:#999;
+  color:#1b1b1b;
   font-weight: bold;
 }
 .desc a:hover {
