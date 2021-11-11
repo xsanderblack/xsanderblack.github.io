@@ -12,14 +12,46 @@
   padding: 2rem;
 }
 
+img {
+  display: block;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 9999px;
+  width: 25%;
+  max-width: 430px;
+  height: auto;
+}
+
+@media screen and (min-width: 1025px) {
+  img {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  img {
+    width: 30%;
+  }
+}
+
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .flex-between > div {
     padding: 1rem;
+  }
+
+  img {
+    margin-top: 3rem;
+    width: 40%;
   }
 }
 
 @media screen and (max-width: 426px) {
   .flex-between > div {
     width: 100%;
+  }
+
+  img {
+    margin-top: 3rem;
+    width: 60%;
   }
 }
